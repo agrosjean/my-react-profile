@@ -1,0 +1,42 @@
+body {
+    background-color: #fefefe;
+    padding: 20px;
+    margin: 0;
+}
+
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.header {
+    background-color: yellow;
+    padding: 20px;
+}
+
+ul.header > li > a {
+    color: #506edd;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.active {
+    background-color: red;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > a {
+    padding: 20px;
+}
+
+.error {
+    color: red;
+}
+

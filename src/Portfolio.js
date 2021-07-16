@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import images from './images/travelers.jpg';
+import travelers from './images/travelers.jpg';
+import automobile from './images/automobile.jpg';
 
 
 class Portfolio extends Component {
@@ -8,16 +9,16 @@ class Portfolio extends Component {
         return (
             <div>
                 <h3>Portfolio</h3>
-                <div class="creations">
+                <div className="creations">
                     <section className="card">
                         <header>Weather Dashboard</header>
-                        <img src={images} alt="Weather Dashboard" />
+                        <img src={travelers} alt="Weather Dashboard" />
                         <a href="https://github.com/agrosjean/Weather-Dashboard">
                             Weather</a>
                     </section>
                     <section className="card">
                         <header>Quiz Code</header>
-                        <img src={images} alt="Quiz Code" />
+                        <img src={automobile} alt="Quiz Code" />
                         <a href="https://github.com/agrosjean/Quiz-code">Quiz Code</a>
                     </section>
                     <section className="card">

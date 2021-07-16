@@ -6,8 +6,6 @@ header {
     padding: 2%;
     background-color: #103238;
     color: rgb(156, 94, 94);
-    
-
   }
 
   header a {
@@ -33,25 +31,21 @@ header {
     float: left;
   }
 
-  nav ul {
+  nav ul.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-width: 400px;
   }
   
-  nav li a {
-    color: #5a7446;
-    padding: 1rem;
+  nav ul.header li a {
     font-size: 1.2rem;
-    margin: 0 0.5rem;
-    border-radius: 5px;
     text-decoration: none;
-
+    color: #fff;
   }
   
   nav li a:hover {
-    color: rgb(190, 120, 132);
+    color: rgb(120, 150, 190);
     
   }
 

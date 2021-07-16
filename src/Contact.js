@@ -31,19 +31,24 @@ class Contact extends Component {
 
     render() {
         return (
-            <div>
-                <h3>Contact</h3>
-                <br />
-                <input type="text" name="name" placeholder="Enter name" onBlur={(e) => this.validate(e)} />
-                <br />
-                <input type="email" name="email" placeholder="Enter email" onBlur={(e) => this.validate(e)} />
-                <br />
-                <textarea type="text" name="message" placeholder="Enter message" onBlur={(e) => this.validate(e)}></textarea>
-                <br />
+            <div className="center-container">
+                <div className="contact">
+                    <h3 className="content-title">Contact</h3>
+                    <br />
+                    <input type="text" name="name" placeholder="Enter name" onBlur={(e) => this.validate(e)} />
 
-                <p className="error">{this.state.error}</p>
+                    <input type="email" name="email" placeholder="Enter email" onBlur={(e) => this.validate(e)} />
 
-                <button>Submit</button>
+                    <textarea type="text" rows="15" name="message" placeholder="Enter message" onBlur={(e) => this.validate(e)}>
+
+                    </textarea>
+
+
+                    <p className="error">{this.state.error}</p>
+                    <br />
+
+                    <button>Submit</button>
+                </div>
             </div>
         )
     }
